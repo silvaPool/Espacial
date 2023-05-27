@@ -54,6 +54,17 @@ body {
     border-bottom: 1px solid white;
 }  
 
+/* MAIN */
+
+.conteudo .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    height: 70vh;
+    margin-top: 2rem;
+}
+
 
 
 

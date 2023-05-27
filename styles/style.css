@@ -1,0 +1,47 @@
+:root {
+    --color-primary: #FFFFFF;
+    --color-secondary: #00008B;
+    --third-color: #0000CD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color-primary);
+    background-image: url("/images/background-home-desktop.jpg");
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.header .nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.header .nav ul li {
+    list-style-type: none;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+
+

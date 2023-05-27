@@ -13,29 +13,46 @@
 body {
     color: var(--color-primary);
     background-image: url("/images/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/* HEADER */ 
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 0 0 3rem;
+}
+
+.header .nav {
+    background-color: rgba(255,255,255, 0.05);
+    width: 60vw;
+    height: 12vh;
+    border-bottom-left-radius: 2rem ;
 }
 
 .header .nav ul {
     display: flex;
+    justify-content: space-around;
+    padding: 3rem;
     gap: 1rem;
 }
 
 .header .nav ul li {
     list-style-type: none;
+    height: 7vh;
 }
 
 .header .nav ul li a {
     text-decoration: none;
     color: var(--color-primary);
 }
-
+ 
+.header .nav ul li:hover {
+    border-bottom: 1px solid white;
+}  
 
 
 

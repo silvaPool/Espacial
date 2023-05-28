@@ -15,9 +15,10 @@ body {
     background-image: url("/images/background-home-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Karla', sans-serif;
 }
 
-/* HEADER */ 
+/* HEADER */
 
 .header {
     display: flex;
@@ -27,10 +28,10 @@ body {
 }
 
 .header .nav {
-    background-color: rgba(255,255,255, 0.05);
+    background-color: rgba(255, 255, 255, 0.05);
     width: 60vw;
     height: 12vh;
-    border-bottom-left-radius: 2rem ;
+    border-bottom-left-radius: 2rem;
 }
 
 .header .nav ul {
@@ -49,10 +50,10 @@ body {
     text-decoration: none;
     color: var(--color-primary);
 }
- 
+
 .header .nav ul li:hover {
     border-bottom: 1px solid white;
-}  
+}
 
 /* MAIN */
 
@@ -60,16 +61,32 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid black;
     height: 70vh;
     margin-top: 2rem;
+    font-size: 1.2rem;
 }
 
+.conteudo .box .box-div-1 p {
+    margin-bottom: 1rem;
+}
 
+.box-div-1 p:first-child {
+    font-size: 2rem;
+}
 
+.box-div-1 p:nth-child(2) {
+    font-size: 10rem;
+    font-weight: 700;
+}
 
-
-
-
-
-
+.conteudo .box .box-div-2 {
+    background-color: var(--color-primary);
+    color: black;
+    width: 20vw;
+    height: 35vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
